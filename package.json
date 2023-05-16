@@ -1,0 +1,46 @@
+{
+  "name": "@superset-ui-cust-chart/plugin-chart-meat-cuts",
+  "version": "0.0.6",
+  "description": "Superset Chart - Meat Cuts",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache-superset/superset-ui.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apache-superset/superset-ui/issues"
+  },
+  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@superset-ui/core": "^0.17.40",
+    "@superset-ui/chart-controls": "^0.17.41"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
